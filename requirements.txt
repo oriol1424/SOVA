@@ -1,0 +1,16 @@
+# Dependencias del proyecto seguridad_obra
+# Instalar con:  pip install -r requirements.txt
+#
+# Si tienes GPU NVIDIA, instala PyTorch con CUDA primero:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# Luego el resto:
+#   pip install -r requirements.txt
+
+torch>=2.2.0
+torchvision>=0.17.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+pillow>=10.0.0
+matplotlib>=3.7.0
+ultralytics>=8.0.0
+pyyaml>=6.0
